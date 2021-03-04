@@ -1,0 +1,11 @@
+// objecto con las config de babel 
+// babel/core -> JS moderno compatible con NAVs
+// babel-loader -> WebPack
+// Plugines -> ECMAscript and JSX
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
