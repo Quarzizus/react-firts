@@ -1,9 +1,19 @@
-body{
+@import '../styles/Variables.scss';
+
+*{
     margin: 0;
-    background-color: blueviolet;
-    
-    h1{
-        color: white;
-    }
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-main;
+}
+
+.App{
+    background-color: rgb(29, 18, 39);
+    color: $color-font;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px calc(100vh - 100px);
+    grid-auto-rows: 100vh;
+
 }
 
